@@ -153,7 +153,7 @@ body div aside div ul li{
 #widget-text{
     color: #009EF3;
     background-color: #b4e0fa;
-    background: skyblue;
+    /* background: skyblue; */
     padding: 2px 5px;
 }
 
