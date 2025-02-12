@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="crateaccount.css">
+</head>
+<body>
+    <form action="/submit" method="post">
+        <div>
+            <h2>Type Your Information</h2>
+        </div>
+       <div class="container">
+                <div>
+                    <label for="firstname" class="label-first">First Name</label>
+                    <input type="text" class="input-first" id="firstname" name="firstname" placeholder="Enter First Name" required>
+                </div>
+    
+                <div>
+                    <label for="lastname" class="label-last">Last Name</label>
+                    <input type="text" class="input-last" id="lastname" name="lastname" placeholder="Enter Last Name" required>
+                </div>
+                
+                <div>
+                    <label for="email" class="label-email">Email</label>
+                    <input type="email" class="input-email" id="email" name="email" placeholder="Email here" required>
+                </div>
+                
+                <!-- <div>
+                    <label for="jobrole" class="label-job">Job Role</label>
+                    <select name="jobrole" id="jobrole" class="select-job">
+                        <option value="front-end-developer">Front-End Developer</option>
+                        <option value="back-end-developer">Back-End Developer</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div> -->
+                
+                <!-- <div class="enteraddress">
+                    <label for="EnterAddress" class="label-address">Enter Address</label>
+                    <textarea name="text" class="text-address" id="EnterAddress" rows="4" cols="45" placeholder="Enter Address Here"></textarea>
+                </div>
+                
+                <div>
+                    <label for="City" class="label-city">City</label>
+                    <input type="text" class="input-city" id="city" name="City" placeholder="Enter City" required>
+                </div>
+                
+                <div>
+                    <label for="zipcode" class="label-zip">Zip Code</label>
+                    <input type="text" class="input-zip" id="zipcode" name="zipcode" pattern="\d{6}" title="Six digit zip code" placeholder="Enter Zip Code" required>
+                </div>
+                
+                <div>
+                    <label for="date">Start Date</label>
+                    <input type="date" id="date" name="date" placeholder="Enter Date">
+                </div>
+    
+                <div>
+                    <label for="file">Upload your CV</label>
+                    <input type="file" id="file" name="file" placeholder="Enter File Here">
+                </div> -->
+                <button type="submit" class="button">Sign Up</button>  
+       </div>
+       <p>Already Have a account? Log In <a href="#">Here</a></p>
+    </form>
+    
+</body>
+</html>
